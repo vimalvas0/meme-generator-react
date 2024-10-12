@@ -1,0 +1,45 @@
+nav {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/** Typography **/
+.navbar__logo {
+  font-family: "Karla";
+}
+
+.navbar__right {
+  font-family: "Inter";
+  font-size: 0.8rem;
+}
+
+/** Layout **/
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.navbar__logo img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #672280, #a626d3);
+  color: white;
+  height: 80px;
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

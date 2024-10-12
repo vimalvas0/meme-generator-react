@@ -1,0 +1,34 @@
+.meme-image {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 2em;
+  position: relative;
+}
+
+.meme-image img {
+  width: 80%;
+  position: relative;
+}
+
+.meme-image-text {
+  color: white;
+  position: absolute;
+  font-family: "Roboto";
+  font-size: 4vw; /* Use viewport width units for responsive scaling */
+  text-shadow: 0 0 5px black;
+  text-transform: uppercase;
+  text-align: center;
+  width: 60%;
+}
+
+.top-text {
+  top: 20px;
+}
+
+.bottom-text {
+  bottom: 20px;
+}
